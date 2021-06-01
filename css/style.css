@@ -32,6 +32,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     width: 100%;
     height: auto;
 }
+
+ 
+
 html,
 body {
 	margin: 0;
@@ -2708,13 +2711,7 @@ h3.m_1 {
     font-weight: 300;
     margin-bottom: 1em;
 }
-
-.grid_3 p {
-    color: #555;
-    font-size: 0.85em;
-    margin-bottom: 1em;
-    font-weight: 300;
-}
+ 
 
 .grid_4 {
     background: none;
@@ -2784,13 +2781,7 @@ h3.bars {
     background-color: #e51c23;
 }
 
-.grid_3 p {
-    line-height: 2em;
-    color: #888;
-    font-size: 0.9em;
-    margin-bottom: 1em;
-    font-weight: 300;
-}
+ 
 
 .bs-docs-example {
     margin: 1em 0;
@@ -4254,4 +4245,39 @@ h2.typoh2 {
 @media (max-width: 1280px) {
 	
 }
-/*-- //Responsive design *--/
+ 
+.product_img{
+	margin-right: 40px;
+	 width: 20%;
+	  margin-top: -2px;
+	
+}
+
+.iconbox{
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 5px;
+	padding-top: 10px;
+	height: 73px;
+
+
+}
+@media (max-width:750px){
+	.iconbox{
+		margin-left: 0px;
+	}
+}
+ 
+
+@media (min-width: 992px){
+.col-md-3 {
+ width: 23%;
+}
+}
+
+  
+/*-- //Responsive design *--//
+
+ 
